@@ -1,0 +1,5 @@
+C:\Source\neuralNET\NeuralNET\GUI\bin\Debug\GUI.exe.config
+C:\Source\neuralNET\NeuralNET\GUI\bin\Debug\GUI.exe
+C:\Source\neuralNET\NeuralNET\GUI\bin\Debug\GUI.pdb
+C:\Source\neuralNET\NeuralNET\GUI\obj\Debug\GUI.exe
+C:\Source\neuralNET\NeuralNET\GUI\obj\Debug\GUI.pdb

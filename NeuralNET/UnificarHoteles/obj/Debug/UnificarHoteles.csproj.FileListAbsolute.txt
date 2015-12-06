@@ -1,0 +1,6 @@
+C:\Source\neuralNET\NeuralNET\UnificarHoteles\bin\Debug\NeuralNET.dll.config
+C:\Source\neuralNET\NeuralNET\UnificarHoteles\bin\Debug\NeuralNET.dll
+C:\Source\neuralNET\NeuralNET\UnificarHoteles\bin\Debug\NeuralNET.pdb
+C:\Source\neuralNET\NeuralNET\UnificarHoteles\obj\Debug\UnificarHoteles.csprojResolveAssemblyReference.cache
+C:\Source\neuralNET\NeuralNET\UnificarHoteles\obj\Debug\NeuralNET.dll
+C:\Source\neuralNET\NeuralNET\UnificarHoteles\obj\Debug\NeuralNET.pdb
