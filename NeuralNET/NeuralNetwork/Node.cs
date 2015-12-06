@@ -6,34 +6,17 @@ using System.Threading.Tasks;
 
 namespace NeuralNetwork
 {
-    class Node :Inputable, Outputable
+    public class Node :Inputable, Outputable
     {
-        IData data;
-        bool setData(IData _data)
-        {
-            try
-            {
-                data = _data;
-            }
-            catch(Exception e)
-            {
-                return false;
-            }
-            return true;
-        }
-        IData getData()
-        {
-            return data;
-        }
+        Data data;
 
-        IData ReturnData()
+        public Data ReturnData()
         {
             throw new NotImplementedException();
         }
-
-        void FeedData(IData input)
+        public void FeedData(Data input)
         {
-            throw new NotImplementedException();
+            data =+ input;
         }
     }
 }

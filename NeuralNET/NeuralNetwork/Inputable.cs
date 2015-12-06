@@ -8,6 +8,6 @@ namespace NeuralNetwork
 {
     interface Inputable
     {
-        void FeedData(IData input);
+        void FeedData(Data input);
     }
 }

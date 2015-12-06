@@ -8,6 +8,6 @@ namespace NeuralNetwork
 {
     interface Outputable
     {
-        IData ReturnData();
+        Data ReturnData();
     }
 }

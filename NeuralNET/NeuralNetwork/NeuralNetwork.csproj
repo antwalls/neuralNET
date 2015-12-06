@@ -41,7 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Example.cs" />
-    <Compile Include="IData.cs" />
+    <Compile Include="Data.cs" />
     <Compile Include="Inputable.cs" />
     <Compile Include="NeuralNet.cs" />
     <Compile Include="Node.cs" />

@@ -12,8 +12,8 @@ namespace NeuralNetwork
         IList<Node>     NodosEntradaTest;
         Node            Nodosalida;
 
-        public abstract bool setData(IData entrada, IData entrenamiento);
-        public abstract IData process(IData entrada);
+        public abstract bool setData(Data entrada, Data entrenamiento);
+        public abstract Data process(Data entrada);
 
     }
 }
