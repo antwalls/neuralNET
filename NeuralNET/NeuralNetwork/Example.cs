@@ -8,18 +8,20 @@ namespace NeuralNetwork
 {
     public class Example
     {
-        private Data        input           { get; set; }
-        private Data        desiredOutput   { get; set; }
-        private double      error           { get; set; }
-        private int         classId         { get; set; }
+        public Data        input           { get; set; }
+        public Data        desiredOutput   { get; set; }
+        public double      error           { get; set; }
+        public int         classId         { get; set; }
+        public int         exampleId       { get; set; }
 
 
-        public Example(Data input, Data desiredOutput, double error, int classId)
+        public Example(Data input, Data desiredOutput, int classId, int exampleId)
         {
             this.input = input;
             this.desiredOutput = desiredOutput;
-            this.error = 0;
+            this.error = 0.0;
             this.classId = classId;
+            this.exampleId = exampleId;
         }
     }
 }

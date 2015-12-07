@@ -5,11 +5,16 @@ VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeuralNetwork", "NeuralNetwork\NeuralNetwork.csproj", "{00241A8C-67A2-45A8-A9D9-6729493FA23A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnificarHoteles", "UnificarHoteles\UnificarHoteles.csproj", "{7B875644-4DB8-456B-926C-FB33E032BB88}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unificar", "UnificarHoteles\Unificar.csproj", "{7B875644-4DB8-456B-926C-FB33E032BB88}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "Web\Web.csproj", "{9448A889-53C4-4245-A76E-D0194C1005CB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GUI", "GUI\GUI.csproj", "{F45A86C5-B992-4DD8-94AF-484936D74A99}"
+	ProjectSection(ProjectDependencies) = postProject
+		{00241A8C-67A2-45A8-A9D9-6729493FA23A} = {00241A8C-67A2-45A8-A9D9-6729493FA23A}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedNeuronalTest", "RedNeuronalTest\RedNeuronalTest.csproj", "{33A1B58B-D54B-4FA4-A8B6-603D57C3B4DE}"
 	ProjectSection(ProjectDependencies) = postProject
 		{00241A8C-67A2-45A8-A9D9-6729493FA23A} = {00241A8C-67A2-45A8-A9D9-6729493FA23A}
 	EndProjectSection
@@ -36,6 +41,10 @@ Global
 		{F45A86C5-B992-4DD8-94AF-484936D74A99}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F45A86C5-B992-4DD8-94AF-484936D74A99}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F45A86C5-B992-4DD8-94AF-484936D74A99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33A1B58B-D54B-4FA4-A8B6-603D57C3B4DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33A1B58B-D54B-4FA4-A8B6-603D57C3B4DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33A1B58B-D54B-4FA4-A8B6-603D57C3B4DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33A1B58B-D54B-4FA4-A8B6-603D57C3B4DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

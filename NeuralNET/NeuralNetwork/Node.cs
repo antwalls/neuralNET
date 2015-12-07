@@ -6,17 +6,21 @@ using System.Threading.Tasks;
 
 namespace NeuralNetwork
 {
-    public class Node :Inputable, Outputable
+    public abstract class Node :Inputable, Outputable
     {
-        Data data;
+        Data                    data;
 
+        public abstract Data    funcionPropagacion();
+        public abstract Data    funcionActivacion();
+        public abstract Data    funcionTransferencia();
+
+        public void FeedData(Data input)
+        {
+            data.sum(input);
+        }
         public Data ReturnData()
         {
             throw new NotImplementedException();
-        }
-        public void FeedData(Data input)
-        {
-            data =+ input;
         }
     }
 }

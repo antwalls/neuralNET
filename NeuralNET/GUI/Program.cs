@@ -10,6 +10,7 @@ namespace GUI
     {
         static void Main(string[] args)
         {
+            
             string line = Console.ReadLine();
         }
     }
