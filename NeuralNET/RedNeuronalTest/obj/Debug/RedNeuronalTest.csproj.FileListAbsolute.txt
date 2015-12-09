@@ -1,0 +1,9 @@
+C:\Source\neuralNET\NeuralNET\RedNeuronalTest\bin\Debug\RedNeuronalTest.dll
+C:\Source\neuralNET\NeuralNET\RedNeuronalTest\bin\Debug\RedNeuronalTest.pdb
+C:\Source\neuralNET\NeuralNET\RedNeuronalTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Source\neuralNET\NeuralNET\RedNeuronalTest\bin\Debug\NeuralNetwork.dll
+C:\Source\neuralNET\NeuralNET\RedNeuronalTest\bin\Debug\NeuralNetwork.pdb
+C:\Source\neuralNET\NeuralNET\RedNeuronalTest\bin\Debug\es\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+C:\Source\neuralNET\NeuralNET\RedNeuronalTest\obj\Debug\RedNeuronalTest.csprojResolveAssemblyReference.cache
+C:\Source\neuralNET\NeuralNET\RedNeuronalTest\obj\Debug\RedNeuronalTest.dll
+C:\Source\neuralNET\NeuralNET\RedNeuronalTest\obj\Debug\RedNeuronalTest.pdb

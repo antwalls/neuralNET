@@ -6,14 +6,13 @@ using System.Threading.Tasks;
 
 namespace NeuralNetwork
 {
-    public class NeuralNet
+    public abstract class NeuralNet
     {
-        IList<Node>     NodosEntradaValidacion;
-        IList<Node>     NodosEntradaTest;
-        Node            Nodosalida;
-        IList<Example>  testSet;
-        IList<Example>  evaluationSet;
-        IList<Example>  validationSet;
+        public IList<Neuron>      InputNodes;
+        public Neuron             outputNode;
+        public IList<Example>   testSet;
+        public IList<Example>   evaluationSet;
+        public IList<Example>   validationSet;
 
         public NeuralNet(IList<Example> examples)
         {
@@ -24,11 +23,10 @@ namespace NeuralNetwork
             testSet             = examples.Select(p => p)
                                          .Where(p => p.exampleId > p.exampleId / (examples_count * 0.8))
                                          .ToList();
-
         }
-
         public abstract bool setData(Data entrada, Data entrenamiento);
         public abstract Data process(Data entrada);
+        public abstract void createConexions(List<List<bool>> conexions);
 
     }
 }

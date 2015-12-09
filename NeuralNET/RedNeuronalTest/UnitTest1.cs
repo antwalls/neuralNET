@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using Microsoft.VisualStudio.TestTools.UnitTesting;;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using NeuralNetwork;
 
 
@@ -11,7 +11,7 @@ namespace RedNeuronalTest
     {
         public NeuralNet brain;
         [TestMethod]
-        public void ConstructNet()
+        public void ConstructStringNet()
         {
             string desired  = "abomasnow";
 
@@ -50,15 +50,24 @@ namespace RedNeuronalTest
             examples.Add(ex6);
             examples.Add(ex7);
 
-            brain = new NeuralNet(examples);
+            brain = new StringNeuralNet(examples);
         }
-
+        //this method test the conexion of the nodes of the net with a one-to-the rest topology 
         [TestMethod]
         public void CreateConectionsNet()
         {
-            
+            int                     n_neurons   = 5;
+            List<List<Boolean> >    conexions   = new List<List<bool> >(5);
+            for (int i = 0; i < n_neurons; i++)
+            {
+                conexions[i] = new List<bool>(5);
+                for (int j = 0; j < n_neurons; j++)
+                {
+                    conexions[i][j] = true;
+                }
+            }
+            brain.createConexions(conexions);
         }
-
         [TestMethod]
         public void TrainNet()
         {
